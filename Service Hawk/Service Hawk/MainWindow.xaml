@@ -1,0 +1,35 @@
+﻿<Window x:Class="Service_Hawk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Hawk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" MinHeight="300" MaxHeight="300" Width="450" MinWidth="450" MaxWidth="450" WindowStartupLocation="CenterScreen" Foreground="#FFFDFDFD" Background="#FFD7E9F9" WindowStyle="None">
+    <Grid IsEnabled="False">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF6A1F1F" Offset="1"/>
+                <GradientStop Color="#FF394253"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" Grid.Column="3" HorizontalAlignment="Left" Height="75" Margin="36,75,0,0" VerticalAlignment="Top" Width="118" RenderTransformOrigin="0.487,0.5" OpacityMask="Black" Stretch="Fill" Cursor="None" Grid.ColumnSpan="2">
+            <Image.Source>
+                <BitmapImage UriSource="file:///C:/Users/Muhammad_Usman/Desktop/my2.png"/>
+            </Image.Source>
+        </Image>
+        <ProgressBar x:Name="progressBar" Grid.ColumnSpan="2" Grid.Column="3" HorizontalAlignment="Left" Height="10" Margin="44,200,0,0" VerticalAlignment="Top" Width="100" Foreground="#FF06B025" ToolTip="" IsEnabled="False" Cursor="None"  />
+        <Label x:Name="label" Content="Monitor the Service" Grid.Column="3" HorizontalAlignment="Left" Margin="36,155,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="118"/>
+        <Label x:Name="label1" Content="©2016 Usman Corporation&#xD;&#xA;     All rights reserved." Grid.Column="4" HorizontalAlignment="Left" Margin="20,250,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="157" Height="42"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,2 @@
+c:\users\muhammad_usman\documents\visual studio 2015\Projects\Service Hawk\Service Hawk\bin\Debug\Service Hawk.exe.config
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\bin\Debug\Service Hawk.exe.config

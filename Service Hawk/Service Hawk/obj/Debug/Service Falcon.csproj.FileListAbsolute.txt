@@ -1,0 +1,16 @@
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\bin\Debug\Service Hawk.exe.config
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\bin\Debug\Service Hawk.exe
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\bin\Debug\Service Hawk.pdb
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Falcon.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Home.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\MainWindow.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\App.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk_MarkupCompile.cache
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk_MarkupCompile.lref
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Home.baml
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\MainWindow.baml
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk.g.resources
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service_Hawk.Properties.Resources.resources
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Falcon.csproj.GenerateResource.Cache
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk.exe
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk.pdb
