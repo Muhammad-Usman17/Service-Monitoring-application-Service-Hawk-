@@ -11,7 +11,7 @@ namespace Service_Hawk
     {
         private static ServiceOperation obj;
 
-        private  ServiceOperation Func
+        public static  ServiceOperation Func
         {
             get
             {
@@ -23,7 +23,7 @@ namespace Service_Hawk
              public void InstallService(string pathToAssembly)
         {
 
-            
+            System.Configuration.Install.ManagedInstallerClass.InstallHelper(new string[] { pathToAssembly });
 
         }
     }

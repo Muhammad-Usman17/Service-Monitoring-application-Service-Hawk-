@@ -14,3 +14,11 @@ C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-applicat
 C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Falcon.csproj.GenerateResource.Cache
 C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk.exe
 C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Service Hawk.pdb
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Login.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\Login.baml
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\InstallUnistallWindow.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\LogWindow.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\SettingWindow.g.cs
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\InstallUnistallWindow.baml
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\LogWindow.baml
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Service Hawk\obj\Debug\SettingWindow.baml

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceProcess;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -32,19 +33,30 @@ namespace Service_Hawk
         }
 
         private void Timer_click(object sender, EventArgs e)
-        { 
-            if(progressBar.Value==100)
+        {
+
+            if (progressBar.Value == 100)
             {
                 timer.Stop();
-                Home h = new Home();
+                Login h = new Login();
                 this.Hide();
                 h.Show();
                 this.Close();
 
             }
 
-            else
-                progressBar.Value += 5;
+            else {
+                ServiceController ctl = ServiceController.GetServices() .FirstOrDefault(s => s.ServiceName == "Falcon");
+                if (ctl == null)
+                {
+                    ServiceOperation.Func.InstallService(@"C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Hawk\bin\Debug\Hawk.exe    ");
+                    progressBar.Value += 10;
+                }
+                else
+                    progressBar.Value += 30;
+
+
+            }
             }
 
     }

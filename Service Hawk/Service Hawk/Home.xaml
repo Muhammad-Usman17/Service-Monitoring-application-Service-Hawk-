@@ -7,11 +7,53 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" MinHeight="500" MaxHeight="500" Width="700" MinWidth="700" MaxWidth="700" WindowStartupLocation="CenterScreen" Foreground="#FFFDFDFD" Background="#FFD7E9F9">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFB24F4F" Offset="1"/>
+                <GradientStop Color="#FF707F9C"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="55*"/>
-            <ColumnDefinition Width="387*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="137*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="90,100,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="692" Grid.ColumnSpan="7" Background="#FFF0E3E3" Margin="1,0,-0.081,0">
+            <MenuItem Header="Home" FontWeight="Bold" FontStyle="Italic" Height="25" Width="49" >
+                <MenuItem Name="start" Header="Start" Click="StartMonitering" FontStyle="Normal"  FontWeight="Normal"/>
+                <MenuItem Name="stop" Header="Stop" Click="StopMonitoring" FontStyle="Normal" FontWeight="Normal"/>
+                <MenuItem Name="install" Header="Install" Click="installUnistallpage" FontWeight="Normal" FontStyle="Normal"/>
+                <MenuItem Name="uninstall" Header="Uninstall" Click="installUnistallpage" FontWeight="Normal" FontStyle="Normal"/>
+                <MenuItem Header="Exit" Click="exit" FontStyle="Normal" FontWeight="Normal"/>
+            </MenuItem>
+            <MenuItem Header="View" Click="LogPage" FontWeight="Bold" FontStyle="Italic"/>
+            <MenuItem Header="Setting"  FontWeight="Bold" FontStyle="Italic">
+                <MenuItem Name="ConfigSetting" Header="Configuration Setting" Click="ConfigurationSettingpage" FontWeight="Normal" FontStyle="Normal"/>
+            </MenuItem>
+        </Menu>
+        <ListBox x:Name="listBox" Grid.Column="1" HorizontalAlignment="Left" Height="129" Margin="9.923,240,0,0" VerticalAlignment="Top" Width="250" Grid.ColumnSpan="3" Background="#FFFF9C9C" BorderThickness="4"/>
+        <ListView x:Name="listView" Grid.ColumnSpan="4" Grid.Column="3" HorizontalAlignment="Left" Height="152" Margin="200.383,217,0,0" VerticalAlignment="Top" Width="252" SelectionChanged="listView_SelectionChanged" Background="#FFB1EEAB" BorderThickness="4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="button" Content="Add" Grid.Column="3" HorizontalAlignment="Left" Margin="95.383,265,0,0" Click="AddtoMonitor"  VerticalAlignment="Top" Width="80" Height="40" BorderThickness="3" Foreground="#FF2B7A06" BorderBrush="#FF2B7A06"/>
+        <Button x:Name="button1" Content="Remove" Grid.Column="3" HorizontalAlignment="Left" Margin="95.383,320,0,0" Click="RemovefromMonitor"  VerticalAlignment="Top" Width="80" Height="40" BorderThickness="2" Foreground="#FFE80707" BorderBrush="#FFE80707"/>
+        <Button x:Name="button2" Content="Start" Grid.Column="3" HorizontalAlignment="Left" Margin="0.383,65,0,0" VerticalAlignment="Top" Width="115" Height="45" Click="StartMonitering" FontSize="18.667" FontWeight="Bold" BorderThickness="3" Foreground="#FF37810C"/>
+        <Button x:Name="button3" Content="Stop" Grid.Column="3" HorizontalAlignment="Left" Margin="140.383,65,0,0" VerticalAlignment="Top" Width="115" Height="45" Click="StopMonitoring" Grid.ColumnSpan="3"  FontSize="18.667" FontWeight="Bold" BorderThickness="3" Foreground="#FFD41C1C"/>
+        <Button x:Name="button4" Content="Install/Uninstall" Grid.Column="3" HorizontalAlignment="Left" Margin="45.383,125,0,0" VerticalAlignment="Top" Width="170" Height="45" Click="installUnistallpage" FontSize="16" BorderThickness="3" Foreground="#FF1923E6" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBox" Grid.ColumnSpan="6" Grid.Column="1" HorizontalAlignment="Left" Height="72" Margin="84.923,387,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="562" Background="#FFD1B2B2" FontFamily="Sitka Subheading" TextDecorations="{x:Null}" FontSize="14.667" Text="&#xD;&#xA;&#xD;&#xA;" BorderThickness="3" BorderBrush="#FFF30000" IsEnabled="False"/>
+        <Label x:Name="label" Content="Last Bug&#xD;&#xA;Details" Grid.Column="1" HorizontalAlignment="Left" Margin="4.923,395,0,0" VerticalAlignment="Top" Width="75" FontSize="14.667" BorderThickness="3.1,0,0,0" Opacity="0.6" Height="55" Foreground="White"/>
+        <Label x:Name="label1" Content="All Services" Grid.Column="1" HorizontalAlignment="Left" Margin="9.923,217,0,0" VerticalAlignment="Top" Width="185" Foreground="Black" Grid.ColumnSpan="3" Height="23" Background="White" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="button5" Content="Show" Grid.Column="3" HorizontalAlignment="Left" Margin="0.383,217,0,0" VerticalAlignment="Top" Width="65" FontWeight="Bold" Click="ShowList"  Foreground="#FF48A878" Height="23"/>
+        <GroupBox x:Name="groupBox" Header="" HorizontalAlignment="Left" Margin="20,45,0,0" VerticalAlignment="Top" Grid.ColumnSpan="7" Height="337" Width="653" Opacity="0.7" BorderBrush="#FF015181"/>
+        <Button x:Name="button6" Content="Logout" Grid.Column="6" HorizontalAlignment="Left" Margin="108.455,0,-0.081,0" VerticalAlignment="Top" Width="75" Height="25" Foreground="#FF0A3C1A" BorderBrush="Red" BorderThickness="4" Click="Signout" FontWeight="Bold" FontSize="10.667" Background="#FFE67B53"/>
 
     </Grid>
 </Window>
