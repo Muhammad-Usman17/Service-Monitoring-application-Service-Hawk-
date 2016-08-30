@@ -83,7 +83,7 @@ namespace Service_Hawk
 
         private void StartMonitering(object sender, RoutedEventArgs e)
 {
-    Start();
+    Start(); 
 }
 
 
@@ -114,7 +114,11 @@ private void ShowList(object sender, RoutedEventArgs e)
     listBox.Items.Clear();
     for (int i = 0; i < services.Length; i++)
     {
-        if (services[i].ServiceName == "ServiceMoniter")
+        if (services[i].ServiceName == "Falcon")
+        {
+
+        }
+        if (services[i].ServiceName == "follow_falcon")
         {
 
         }
@@ -230,7 +234,7 @@ public void Start()
 
                 string[] service = list.ToArray();
                 string[] ser = listtxt.ToArray();
-
+                        Log.func.writefile(service);
                 Log.func.writefile(ser, ConfigUpdate.File.GetSetting("MoniterList"));
                 sc.Start(service);
                 sc.WaitForStatus(ServiceControllerStatus.Running);
@@ -274,6 +278,7 @@ public void Stop()
     try
     {
         sc.Stop();
+                Log.func.remove();
         sc.WaitForStatus(ServiceControllerStatus.Stopped);
 
 

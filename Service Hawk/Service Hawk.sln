@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Falcon", "Service H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falcon", "Hawk\Falcon.csproj", "{8DB841A7-80CD-430D-9D27-9971D079EB70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Follow(the falcon)", "Follow(the falcon)\Follow(the falcon).csproj", "{6C85B281-574F-4355-8384-2E1021B7611C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8DB841A7-80CD-430D-9D27-9971D079EB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB841A7-80CD-430D-9D27-9971D079EB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB841A7-80CD-430D-9D27-9971D079EB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C85B281-574F-4355-8384-2E1021B7611C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C85B281-574F-4355-8384-2E1021B7611C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C85B281-574F-4355-8384-2E1021B7611C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C85B281-574F-4355-8384-2E1021B7611C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

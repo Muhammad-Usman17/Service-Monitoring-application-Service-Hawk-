@@ -46,11 +46,25 @@ namespace Service_Hawk
             }
 
             else {
-                ServiceController ctl = ServiceController.GetServices() .FirstOrDefault(s => s.ServiceName == "Falcon");
+                ServiceController ctl = ServiceController.GetServices().FirstOrDefault(s => s.ServiceName == "Falcon");
+
                 if (ctl == null)
                 {
                     ServiceOperation.Func.InstallService(@"C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Hawk\bin\Debug\Hawk.exe    ");
+
+                }
+                ServiceController ctl1 = ServiceController.GetServices().FirstOrDefault(s => s.ServiceName == "follow_falcon");
+                if (ctl1 == null)
+                {
+                    ServiceOperation.Func.InstallService(@"C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\Follow(the falcon).exe");
                     progressBar.Value += 10;
+                 
+                    progressBar.Value += 10;
+                }
+                ServiceController sc = new System.ServiceProcess.ServiceController("follow_falcon");
+                if (sc.Status.Equals(ServiceControllerStatus.Stopped))
+                {
+                    sc.Start();
                 }
                 else
                     progressBar.Value += 30;
