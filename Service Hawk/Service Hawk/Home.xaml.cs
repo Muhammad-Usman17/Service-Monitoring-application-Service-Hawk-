@@ -69,7 +69,7 @@ namespace Service_Hawk
                 button3.IsEnabled = true;
                 button4.IsEnabled = false;
                 stop.IsEnabled =true;
-                String[] ser = Log.func.readfile(ConfigUpdate.File.GetSetting("MoniterList"));
+                String[] ser = Log.func.readfile(System.IO.Directory.GetCurrentDirectory() + @"\moniteredservice.txt");
                 for (int i = 0; i<ser.Length; i++)
                 {
                     listView.Items.Add((String)ser[i]);
@@ -107,26 +107,20 @@ private void installUnistallpage(object sender, RoutedEventArgs e)
 
 }
 
-private void ShowList(object sender, RoutedEventArgs e)
-{
-    System.ServiceProcess.ServiceController[] services;
-    services = System.ServiceProcess.ServiceController.GetServices();
-    listBox.Items.Clear();
-    for (int i = 0; i < services.Length; i++)
-    {
-        if (services[i].ServiceName == "Falcon")
+        private void ShowList(object sender, RoutedEventArgs e)
         {
+            System.ServiceProcess.ServiceController[] services;
+            services = System.ServiceProcess.ServiceController.GetServices();
+            listBox.Items.Clear();
+            for (int i = 0; i < services.Length; i++)
+            {
+                if (services[i].ServiceName != "Falcon" && services[i].ServiceName != "follow_falcon")
+                {
+                    listBox.Items.Add(services[i].ServiceName);
+                }
 
+            }
         }
-        if (services[i].ServiceName == "follow_falcon")
-        {
-
-        }
-        else
-            listBox.Items.Add(services[i].ServiceName);
-    }
-}
-
 
 
 private void AddtoMonitor(object sender, RoutedEventArgs e)
@@ -235,7 +229,7 @@ public void Start()
                 string[] service = list.ToArray();
                 string[] ser = listtxt.ToArray();
                         Log.func.writefile(service);
-                Log.func.writefile(ser, ConfigUpdate.File.GetSetting("MoniterList"));
+                Log.func.writefile(ser,System.IO.Directory.GetCurrentDirectory() + @"\moniteredservice.txt");
                 sc.Start(service);
                 sc.WaitForStatus(ServiceControllerStatus.Running);
                 if (sc.Status.Equals(ServiceControllerStatus.Running))

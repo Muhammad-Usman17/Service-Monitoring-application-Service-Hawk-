@@ -12,14 +12,18 @@ namespace Hawk
         //to write error log(exception) on log file
         public static void WriteErrorlog(Exception ex)
         {
-            StreamWriter sw = null;
+           
 
             try
             {
-                sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Logfile.txt", true);
-                sw.WriteLine(DateTime.Now.ToString() + " :" + ex.Source.ToString().Trim() + " ;" + ex.Message.ToString().Trim());
-                sw.Flush();
-                sw.Close();
+                using (StreamWriter sw = new StreamWriter((System.IO.Path.GetDirectoryName(new System.Uri(System.Reflection.Assembly.GetExecutingAssembly().CodeBase).LocalPath)+ @"\Logfile.txt"),true))
+                {
+
+                
+                    sw.WriteLine(DateTime.Now.ToString() + " :" + ex.Source.ToString().Trim() + " ;" + ex.Message.ToString().Trim());
+              
+                    sw.Close();
+                }
 
             }
             catch
@@ -32,15 +36,18 @@ namespace Hawk
         //to write error log(custom error message) on log file
         public static void WriteErrorlog(String Message)
         {
-            StreamWriter sw = null;
+     
 
             try
             {
-                sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Logfile.txt", true);
-                sw.WriteLine(DateTime.Now.ToString() + " :" + Message);
-                sw.Flush();
-                sw.Close();
+                using (StreamWriter sw = new StreamWriter((System.IO.Path.GetDirectoryName(new System.Uri(System.Reflection.Assembly.GetExecutingAssembly().CodeBase).LocalPath)+ @"\Logfile.txt"),true))
+                {
 
+
+                    sw.WriteLine(DateTime.Now.ToString() + " :" + Message);
+                    
+                    sw.Close();
+                }
             }
             catch
 
@@ -53,7 +60,7 @@ namespace Hawk
         public static void Remove()
         {
 
-            File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + "\\Logfile.txt", String.Empty);
+            File.WriteAllText(System.IO.Path.GetDirectoryName(new System.Uri(System.Reflection.Assembly.GetExecutingAssembly().CodeBase).LocalPath)+"\\Logfile.txt", String.Empty);
         }
     }
 }

@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Falcon", "Service Hawk\Service Falcon.csproj", "{28DF7454-F461-4860-B6E3-996D999DCC53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C85B281-574F-4355-8384-2E1021B7611C} = {6C85B281-574F-4355-8384-2E1021B7611C}
+		{8DB841A7-80CD-430D-9D27-9971D079EB70} = {8DB841A7-80CD-430D-9D27-9971D079EB70}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falcon", "Hawk\Falcon.csproj", "{8DB841A7-80CD-430D-9D27-9971D079EB70}"
 EndProject

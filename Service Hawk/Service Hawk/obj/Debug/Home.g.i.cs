@@ -204,7 +204,7 @@ namespace Service_Hawk {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Service Hawk;component/home.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Service Falcon;component/home.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\Home.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

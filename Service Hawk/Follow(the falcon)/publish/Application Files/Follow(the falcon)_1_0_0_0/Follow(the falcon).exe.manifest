@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Follow(the falcon).exe" version="1.0.0.0" publicKeyToken="48e6bf95c36296b6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Follow(the falcon)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Follow(the falcon).exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Follow(the falcon).exe" size="8152">
+      <assemblyIdentity name="Follow(the falcon)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>10uZEk1MIf7rSwedvpdzqUN7lNvrlDZwQZXC196m/Zw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Follow(the falcon).exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=USMAN\Muhammad_Usman" issuerKeyHash="05b2867d878378e7f171e01b599c6706c29aedd9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+9MPEWMtTHJG2Cv//L3B83Cxm/rNu7naeEsNxBkETiU=</DigestValue></Reference></SignedInfo><SignatureValue>Unriav83C2kgfYGarlMObQwVjnreghT0u3b5yc/JNoUj2g18UvKgiNczVEUa0B0khVtLbO4UpObl/NE+3jgS/ruyqgiPNhjxBFrQB1Ic1fcX6v+FcW5u25q7ls7Nm88XAG7O+0+oOy6lAEAub8p0+YnZCdJbP0oddu9GX57GQYc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wKDZ2diq0K0bsByuQKfen2SeJcSKGietMbbLDjIFe8zAJnlqmOQVq6y7vogjePjihqmaLf1GkirjP9bcxNYHWZ20Bo7xiEi+aVjVatbGYqPUhJx3w9N9ixPn2UDeZz5fTMrCOt5w/9LEe0gvkjTo6SswkVw3iqyWkg+5WE6SgG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="254e0419c40d4b78dab9bbcdfa9bb170f3c1bdfcff2bd846724c2d63110fd3fb" Description="" Url=""><as:assemblyIdentity name="Follow(the falcon).exe" version="1.0.0.0" publicKeyToken="48e6bf95c36296b6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=USMAN\Muhammad_Usman</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P7ob6UGCidNhOZ0PlkV+0FbJXWojkkkhdw5+zzlr6p8=</DigestValue></Reference></SignedInfo><SignatureValue>YMqeGYAZjWVOe8QKv+Kp4f4IxkeVjD5Td45fTRxdbytEbQyEAIvgQUGl9Myz0TpA1Pm4RJxgW6hY5TOiotPN5wM2k3prCRhjTfxXYWytz+YvfC8pqAUFkXdO3c/isG3xUlNuy/NSNv/EPYwQ7JQcL9fCc8xp8XwEiN7qc/cUAa4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wKDZ2diq0K0bsByuQKfen2SeJcSKGietMbbLDjIFe8zAJnlqmOQVq6y7vogjePjihqmaLf1GkirjP9bcxNYHWZ20Bo7xiEi+aVjVatbGYqPUhJx3w9N9ixPn2UDeZz5fTMrCOt5w/9LEe0gvkjTo6SswkVw3iqyWkg+5WE6SgG0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQEX9GDeFOTpBAmHz2+c8S5jANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAVQBTAE0AQQBOAFwATQB1AGgAYQBtAG0AYQBkAF8AVQBzAG0AYQBuMB4XDTE2MDkwMzIzNDA0MFoXDTE3MDkwNDA1NDA0MFowMzExMC8GA1UEAx4oAFUAUwBNAEEATgBcAE0AdQBoAGEAbQBtAGEAZABfAFUAcwBtAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwKDZ2diq0K0bsByuQKfen2SeJcSKGietMbbLDjIFe8zAJnlqmOQVq6y7vogjePjihqmaLf1GkirjP9bcxNYHWZ20Bo7xiEi+aVjVatbGYqPUhJx3w9N9ixPn2UDeZz5fTMrCOt5w/9LEe0gvkjTo6SswkVw3iqyWkg+5WE6SgG0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCJftAqaPcSwDXOlSkjs2eF4Y8OMwWx9pPkm5puAdmgrqpE8YWZefqoH1LpsvSBBXNBPSz6Ra5ZptZzfHDQoSadk5XY/gjyOOYed+fy8Hv9Z41wM00qYlsSxbVOyiP2HA4h1oz66QGYUlUb7S7Fc8efAere49p2d+O62ROMd4MN9Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

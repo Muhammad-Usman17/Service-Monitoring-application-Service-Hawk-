@@ -1,0 +1,14 @@
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\Follow_the_falcon_.ProjectInstaller.resources
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\Follow_the_falcon_.Service1.resources
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\Follow(the falcon).csproj.GenerateResource.Cache
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\follow_falcon.TrustInfo.xml
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\follow_falcon.exe.manifest
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\follow_falcon.exe
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\follow_falcon.pdb
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\bin\Debug\follow_falcon.exe.config
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\bin\Debug\follow_falcon.exe.manifest
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\bin\Debug\follow_falcon.application
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\bin\Debug\follow_falcon.exe
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\bin\Debug\follow_falcon.pdb
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\follow_falcon.application
+C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow(the falcon)\obj\Debug\Follow(the falcon).csprojResolveAssemblyReference.cache

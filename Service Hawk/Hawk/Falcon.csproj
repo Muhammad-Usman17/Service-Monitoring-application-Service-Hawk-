@@ -7,8 +7,8 @@
     <ProjectGuid>{8DB841A7-80CD-430D-9D27-9971D079EB70}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hawk</RootNamespace>
-    <AssemblyName>Hawk</AssemblyName>
+    <RootNamespace>Falcon</RootNamespace>
+    <AssemblyName>Falcon</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

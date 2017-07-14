@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>F:\|D:\|C:\Users\Muhammad_Usman\Desktop\|publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory>file:///c/Users/Muhammad_Usman/Documents/Visual Studio 2015/Service-Monitoring-application-Service-Hawk-/Service Hawk/Follow%28the falcon%29|file://localhost/C/Users/Muhammad_Usman/Documents/Visual Studio 2015/Service-Monitoring-application-Service-Hawk-/Service Hawk|file://localhost/C/Users/Muhammad_Usman/Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk|file://localhost/C/Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow%28the falcon%29\bin|C:\Users\Muhammad_Usman\Documents\Visual Studio 2015\Service-Monitoring-application-Service-Hawk-\Service Hawk\Follow%28the falcon%29\bin</BootstrapperUrlHistory>
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
